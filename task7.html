@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7</title>
+</head>
+<style>
+    body{
+        background-image:url("133822815949167197.jpg");
+        background-size: cover;  /* makes the image cover the entire page */
+    }
+    form{
+        position: absolute;
+        right: 300px;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        margin: 100px auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+         /* Glowing border effect */
+      border: 2px solid white;
+      box-shadow:                           /*box-shadow: offset-x offset-y blur-radius color;*/
+        0 0 10px #fff,
+        0 0 20px #ffcc00,
+        0 0 30px #ffcc00,
+        0 0 40px #fff;
+    }
+    
+    input{
+        display: block;
+        padding:5px;
+        width: 250px;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
+
+
+    input:focus{
+        border:2px solid blue;
+        outline: none; 
+        background-color: lightgrey; 
+    }
+
+</style>
+<body >
+    <center>
+     <form>
+    <label >Username:</label><br>
+    <input type="text" name="username" placeholder="Enter username"><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="Enter email"><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" placeholder="Enter password"><br>
+  </form>
+  </center>
+</body>
+</html>
